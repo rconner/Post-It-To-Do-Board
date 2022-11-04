@@ -74,37 +74,5 @@ my_text12.grid(row=6, column=2, padx=10, pady=10)
 text_12_button = Button(root, width=3, height=1, text = "Clear", command=delete_text12).grid(row=7, column=2, padx=2, pady=2)
 
 
-
-
-
-
-#def callback():
-    #x = my_text3.get()
-    #print(x)
-    
-
-#bottom = Frame(root)    # Create frame to hold button
-#bottom.grid()           # Pack bottom frame
-#b = Button(bottom, text="Clear", command=clear)
-#b.grid()
-
-#Tell button where to be
-#bottomframe = Frame(root)
-#bottomframe.pack( side = BOTTOM)
-
-#Created a 2nd text box
-#my_text2 = Text(root, width=13, height=7, wrap="word").grid(row=0, column=1)
-#my_text2.pack(width=10).grid(row=0, column=1)
-
-#Told it to go to the top but it just went to the top of the other textbox
-#topframe = Frame(root)
-#topframe.pack( side = TOP)
-
-
-#Create clear screen button
-#clear_button = Button(bottomframe, text="clear Screen", command= clear)
-#clear_button.grid(row=0, column=0)
-
-
 mainloop()
 
